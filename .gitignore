@@ -1,0 +1,26 @@
+# Secrets - never commit
+.env
+*.env
+!.env.example
+*.pem
+*.key
+kubeconfig
+secret*.yaml
+!secret.example.yaml
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large evidence files (keep screenshots, skip videos)
+*.mp4
+*.mov
